@@ -78,6 +78,11 @@ img {
   margin: 0 auto;
 }
 
+.section-general {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .backdrop {
   width: 100vw;
   height: 100vh;
@@ -509,11 +514,6 @@ img {
   margin: 0 auto;
 }
 
-.quality {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .quality-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -567,7 +567,7 @@ img {
 }
 
 .works {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .works-list {
@@ -617,8 +617,6 @@ img {
 
 .team {
   background-color: var(--second-background-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-container {
@@ -720,11 +718,6 @@ img {
 
 .team-social-icon {
   fill: currentColor;
-}
-
-.client {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .client-title {
@@ -1003,11 +996,6 @@ img {
 .footer-form-icon {
   margin-left: 10px;
   fill: var(--icon-second-color);
-}
-
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .portfolio-filter-list {
