@@ -1,14 +1,12 @@
 .contact {
   @include flex;
-}
-
-.contact__icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.contact__item:not(:last-child) {
-  margin-right: 50px;
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .contact__link {
