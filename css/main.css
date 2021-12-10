@@ -138,6 +138,28 @@ img {
   margin-left: auto;
 }
 
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--button-second-text-color);
+  text-align: center;
+  background-color: var(--button-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+}
+
+.hero__btn {
+  padding: 10px 32px;
+  margin: 0 auto;
+}
+
 .backdrop {
   width: 100vw;
   height: 100vh;
@@ -400,43 +422,28 @@ img {
   left: 0;
 }
 
-.hero {
+.hero-main {
   background-color: #c4c4c4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0 auto;
   max-width: 1600px;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--mine-title-color);
+  text-align: center;
+  text-transform: uppercase;
   width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
-.hero-btn {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--button-second-text-color);
-  background-color: var(--button-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border-style: none;
-  padding: 10px 32px;
+.hero-main__hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin: 0 auto;
 }
 
@@ -813,6 +820,7 @@ img {
   padding: 10px 28px 10px 29px;
   display: flex;
   align-items: center;
+  text-align: center;
   background: var(--button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -820,7 +828,6 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--button-second-text-color);
 }
