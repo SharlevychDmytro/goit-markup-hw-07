@@ -1,9 +1,12 @@
 @import "./utils/variables";
 @import "./utils/hidden";
+@import "./utils/mixines";
 @import "./base/common";
 @import "./base/reset";
 @import "./components/container";
 @import "./components/section-general";
+@import "./components/logo";
+@import "./components/contact";
 @import "./components/modal";
 @import "./layout/header";
 @import "./layout/hero";
