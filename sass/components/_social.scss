@@ -1,12 +1,12 @@
-.social__list {
-  margin-top: 16px;
-}
-
 .social {
   @include flex(flex, center, center);
   &__icon {
     fill: currentColor;
   }
+}
+
+.social__list {
+  margin-top: 16px;
 }
 
 .social__item {
@@ -32,4 +32,18 @@
     background-color: var(--accent-color);
     color: var(--icon-second-color);
   }
+}
+
+.footer__social {
+  margin-right: 93px;
+}
+
+.social__text {
+  @include font(700, 14px, 1.14, 0.03em, var(--mine-title-color));
+  margin-bottom: 20px;
+}
+
+.social__link--icon-color {
+  color: var(--icon-second-color);
+  background-color: rgba(255, 255, 255, 0.1);
 }
